@@ -45,7 +45,7 @@ Ensure these utilities are installed for full functionality:
 ## Installation
 1. Copy `config.jsonc` and `style.css` to your `~/.config/waybar/` directory.
 2. Ensure you have the required fonts installed.
-3. Reload Waybar (`killall waybar && waybar &`).
+3. Reload Waybar using `omarchy-restart-waybar` or manually with `killall waybar && waybar &`.
 
 ---
 *Part of the [Hyprland Dotfiles](https://github.com/omptra/hyprland-dot-files) collection.*

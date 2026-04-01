@@ -30,6 +30,17 @@ Explore the different designs available in this collection. Click on the heading
 
 ---
 
+### 💻 [Waybar 3: Cyber-Terminal Edition](./waybar3)
+> *A premium, sharp terminal aesthetic with interactive tooltips and a collapsible hardware drawer.*
+
+![Waybar 3 Preview](./waybar3/waybar3.png)
+
+- **Vibe**: Cyber-Terminal, Sharp, Functional.
+- **Highlights**: Collapsible horizontal hardware drawer, interactive color-coded calendar, high-contrast cyan/purple palette.
+
+---
+
+
 ## 🚀 How to Swap Themes
 
 Swapping between these themes is straightforward. Follow these steps to apply a new look to your Hyprland setup:
@@ -66,6 +77,6 @@ killall waybar && waybar &
 ## 🛠️ General Prerequisites
 While each theme may have specific needs, most rely on:
 - **Fonts**: [JetBrainsMono Nerd Font](https://github.com/ryanoasis/nerd-fonts), Symbols Nerd Font.
-- **Tools**: `playerctl`, `brightnessctl`, `pamixer`, `swaync`.
+- **Tools**: `playerctl`, `brightnessctl`, `pamixer`, `swaync`, `btop`.
 
 *Part of the [Hyprland Dotfiles](https://github.com/omptra/hyprland-dot-files) collection.*

@@ -49,7 +49,11 @@ To apply this setup to your Omarchy environment:
 
 1.  **Backup** your current waybar config: `mv ~/.config/waybar ~/.config/waybar_backup`
 2.  **Symlink** this directory: `ln -s /path/to/waybar2 ~/.config/waybar`
-3.  **Reload** Hyprland or restart waybar:
+3.  **Reload** Hyprland or restart waybar using the custom command:
+    ```bash
+    omarchy-restart-waybar
+    ```
+    *Alternatively, manual reload:*
     ```bash
     killall waybar && waybar &
     ```

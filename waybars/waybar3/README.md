@@ -3,7 +3,7 @@
 ![Waybar Preview](waybar3.png)
 
 > [!NOTE]
-> **Theme Context**: The aesthetic of this configuration is heavily inspired by **Tokyo Night** and **Cyberpunk** themes.
+> **Theme Context**: The overall system aesthetic and background shown in the preview is the [Nihil-Omarchy](https://github.com/omptra/Nihil-Omarchy) theme.
 
 ## Overview
 A premium, highly customized Waybar configuration prioritizing a sharp terminal aesthetic with interactive tooltips and a logical right-side grouping featuring a horizontal hardware drawer.
@@ -40,7 +40,7 @@ Ensure these utilities are installed for full functionality:
 ## Installation
 1. Copy `config.jsonc` and `style.css` to your `~/.config/waybar/` directory.
 2. Ensure you have the required fonts installed.
-3. Reload Waybar using `omarchy-reset-waybar` (or `killall waybar && waybar &`).
+3. Reload Waybar using `omarchy-restart-waybar` (or `killall waybar && waybar &`).
 
 ---
 *Part of the [Hyprland Dotfiles](https://github.com/omptra/hyprland-dot-files) collection.*
