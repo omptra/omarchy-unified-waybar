@@ -54,6 +54,9 @@ Restart Waybar to see the changes immediately.
 killall waybar && waybar &
 ```
 
+> [!NOTE]
+> **Omarchy OS** users can simply run `omarchy-restart-waybar` to reload the bar.
+
 > [!TIP]
 > If you want to switch back, simply remove the symlink and restore your backup:
 > `rm ~/.config/waybar && mv ~/.config/waybar_backup ~/.config/waybar`
